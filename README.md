@@ -1,2 +1,3 @@
 # savvy-gaming
-A modern header for my gaming website.
+A modern black-red themed and responsive gaming portfolio website built with 
+html, css, bootstrap, jQuery and various other supportive libraries.
