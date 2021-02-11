@@ -31,7 +31,7 @@ $(' .frame').waypoint(function(direction){
   $(' .frame').addClass('animated zoomIn')
 }, {
 
-  offset : '10%'
+  offset : '60%'
 });
 
 $(' .head-img').waypoint(function(direction){
