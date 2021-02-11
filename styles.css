@@ -33,6 +33,16 @@
 
 }
 
+.feat-part1, .feat-part2, .feat-part3, .frame {
+
+  opacity: 0;
+}
+
+.feat-part1.animated, .feat-part2.animated, .feat-part2.animated, .frame.animated {
+
+  opacity: 1;
+}
+
 .navbar-brand {
 
   padding-left: 2rem;
@@ -61,8 +71,7 @@ h3 {
 .t {
 
   font-size: 1.2rem;
-  font-weight: 600;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .head-1 {
@@ -152,4 +161,17 @@ span {
     left: 10rem;
   
     }
+}
+
+@media screen and (max-width: 767px) {
+
+  .head-img {
+
+    opacity: 0;
+  }
+
+  .head-img.animated {
+
+    opacity: 1;
+  }
 }
