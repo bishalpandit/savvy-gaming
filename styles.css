@@ -123,13 +123,13 @@ span {
 }
 
 .carousel {
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 @media (min-width: 40em) {
 
   .carousel {
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
@@ -174,4 +174,19 @@ span {
 
     opacity: 1;
   }
+}
+
+.conimg {
+
+  padding: 1.5rem;
+}
+
+.contxt {
+
+  padding: 3rem;
+}
+
+#footer {
+
+  text-align: center;
 }
