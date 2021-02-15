@@ -11,7 +11,7 @@
   background-color: white;
   position: fixed;
   z-index: 1000;
-  transition: opacity 1.9s step-end;
+  transition: opacity 0s step-end;
 }
 
 .preload-finish {
